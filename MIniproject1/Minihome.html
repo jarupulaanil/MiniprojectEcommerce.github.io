@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ecommece Shopping Mall</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!--heading section-->
+    <section class="heading">
+      <div class="sale">
+        <h3>Sales are goin on ... <span>shop now</span></h3>
+        <button onclick="openShop()">Shop</button>
+      </div>
+
+      <header>
+        <h1>Shopping Mall</h1>
+      </header>
+
+      <hr />
+
+      <div class="items">
+        <select name="Shopping Needs" id="bags">
+          <option>bags</option>
+          <option>backpacks</option>
+          <option>Electronic items</option>
+          <option>Phones</option>
+          <option>Dresses</option>
+        </select>
+        <p>wallet</p>
+        <p>accessories</p>
+        <p>Electronic accessories</p>
+        <p>Shoes</p>
+        <p>School needs</p>
+      </div>
+    </section>
+
+    <!--offer section-->
+
+    <section class="offer">
+      <img src="images/home.png" alt="bag" />
+      <h1>Happy Shopping</h1>
+      <button onclick="openShop()">More Shopping</button>
+    </section>
+
+    <!--Item list section-->
+    <h1 class="bestseller">Mens Wear Best Seller</h1>
+    <section class="items-list">
+      <div class="product">
+        <img src="images/men1.png" />
+        <div class="productinfocolor1">
+          <h3>Shirt</h3>
+          <p>Rs 800</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="images/men2.png" />
+        <div class="productinfocolor1">
+          <h3>Fashion wear</h3>
+          <p>Rs 1200</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+      <div class="product">
+        <img src="images/jacket.png" alt="tote" />
+
+        <div class="productinfocolor1">
+          <h3>The Oversized Leather Tote</h3>
+          <p>Rs 670</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="images/shoe.png" alt="" />
+
+        <div class="productinfocolor1">
+          <h3>Mens sport shoe</h3>
+          <p>Rs 1200</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="images/paint.png" alt="" />
+        <div class="productinfocolor1">
+          <h3>Jeans</h3>
+          <p>Rs 1000</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+
+      <div class="product">
+        <img src="images/casual.png" alt="" />
+        <div class="productinfocolor1">
+          <h3>The Oversized Leather Tote</h3>
+          <p>Rs 800</p>
+          <button onclick="openShop()">shop</button>
+        </div>
+      </div>
+    </section>
+    <!--reviews section-->
+    <h1 class="bestseller">Customer Reviews</h1>
+    <section class="reviewsection">
+      <div class="review">
+        <h4>Jarupula family</h4>
+        <p>product is good with in all conditions</p>
+      </div>
+      <div class="review">
+        <h4>Rathan tata</h4>
+        <p>Very good in product and according to company reputation</p>
+      </div>
+      <div class="review">
+        <h4>Ravindra nayak</h4>
+        <p>
+          I give the product in very low rating because the poor time quality
+        </p>
+      </div>
+    </section>
+    <footer class="footerclass">
+      <div class="aboutus">
+        <h1>About Us</h1>
+        <nav>
+          <a href="contact.html" target="_blank">Contact us</a><br /><br />
+          <a href="">privacy policy</a><br /><br />
+          <a href="">terms and conditions</a><br /><br />
+        </nav>
+      </div>
+      <div class="Customercare">
+        <h1>Customer Care</h1>
+        <nav>
+          <a href="">Help Center</a><br /><br />
+          <a href="">Shipping and Delivery</a><br /><br />
+          <a href="">Helpline number</a><br /><br />
+        </nav>
+      </div>
+    </footer>
+    <hr />
+    <p style="text-align: center">Copyright © 2024 Mens shopping mall</p>
+
+    <script>
+      function openShop() {
+        window.open("shop.html", "_blank");
+      }
+    </script>
+  </body>
+</html>
